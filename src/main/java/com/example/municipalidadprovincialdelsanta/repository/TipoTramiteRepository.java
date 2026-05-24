@@ -1,5 +1,8 @@
+// TipoTramiteRepository.java
 package com.example.municipalidadprovincialdelsanta.repository;
+import com.example.municipalidadprovincialdelsanta.model.TipoTramite;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public class TipoTramiteRepository {
-    
-}
+@Repository
+public interface TipoTramiteRepository extends JpaRepository<TipoTramite, Long> {}

@@ -1,5 +1,8 @@
+// PagoRepository.java
 package com.example.municipalidadprovincialdelsanta.repository;
+import com.example.municipalidadprovincialdelsanta.model.Pago;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-public class PagoRepository {
-    
-}
+@Repository
+public interface PagoRepository extends JpaRepository<Pago, Long> {}
